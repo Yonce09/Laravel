@@ -1,0 +1,84 @@
+.first-nav {
+    text-align: right;
+    padding: 5px;
+    border: 1px solid #3366cc;
+    margin: 50 50 0 50;
+    }
+        .first-href {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color:#000;
+    text-decoration:none;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+     }
+        .text1 {
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 50 0 50;
+    border: 1px solid #3366cc;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+     }
+        .text2 {
+    border: 1px solid #3366cc;
+    margin: 0 50 0 50;
+    }
+        .bold {
+    padding: 15 10 10 100;
+    font-size: 20px;
+    font-weight:bold;
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    }
+        .hoge {
+    width: 600px;
+    height: 30px;
+    }
+        textarea {
+    resize: none;
+    width: 600px;
+    height:200px;
+    }
+        .bold2 {
+    font-size: 20px;
+    padding: 10 100 10 100;
+    font-weight:bold;
+    }
+        .bold3 {
+    font-size: 20px;
+    padding: 10 150 10 10;
+    font-weight:bold;
+    }
+        .bold4 {
+    font-size: 20px;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+    color: #FFFFFF;
+    padding: 1 80 1 80;
+    background: #3366cc;
+    margin: 5 450;
+    }
+        .submit1 {
+    text-align: center;
+    }
+        .foot {
+    background: #3366cc;
+    border: 1px solid #3366cc;
+    margin: 0 50 0 50; 
+    padding:10 0 0 0;
+    text-align: center;
+    }
+        .second-href {
+    font-size: 20px;
+    text-decoration:none;
+    padding: 10;
+    margin: 10;
+    color: #FFFFFF;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+     }
+        .text3 {
+    font-size: 15px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 10 10 0 10;
+        }
