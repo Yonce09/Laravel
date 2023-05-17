@@ -1,28 +1,23 @@
-<html> 
-    <head>    
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/home.css">
-    </head>
+@extends('layouts.app')
 
-    <body>
-        <header>
-        <nav class="first-nav">
-        <a href="/sample" class="first-href">Introduction</a>
-        <a href="/sample2" class="first-href">portfolio</a>
-        <a href="/sample3" class="first-href">contact</a>
-        </nav>
-        </header>
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Dashboard') }}</div>
 
-        <main>
-        <div class="text"><p class="image">お好みの写真を追加</p></div>
-        <div class="text2"><p class="infomation">自己紹介のページを作成</p></div>
-        </main>
-    </body>
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
 
-    <footer class="foot">
-        <a href="/sample" class="second-href">Introduction</a>
-        <a href="/sample2" class="second-href">portfolio</a>
-        <a href="/sample3" class="second-href">contact</a>
-        <p class="text3">20xx 〇〇 All Rights Reserved </p>
-    </footer>
-</html>
+                    {{ __('You are logged in!') }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

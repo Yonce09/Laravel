@@ -28,7 +28,7 @@
                 <br>
 
                 <label class="bold">電話番号</label>
-                <input type="text" class="hoge" name="tell">
+                <input type="text" class="hoge" name="tel">
                 <br>
 
                 <label class="bold">問合内容</label>
